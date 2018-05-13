@@ -2,31 +2,31 @@
 
 * [AutoCAD](https://www.autodesk.com/products/autocad/overview) - Autodesk
 
-* [3ds Max](https://www.autodesk.com/products/3ds-max/overview) - Autodesk 
+* [3ds Max](https://www.autodesk.com/products/3ds-max/overview) - Autodesk
 
-* [Inventor](https://www.autodesk.com/products/inventor/overview) - Autodesk 
+* [Inventor](https://www.autodesk.com/products/inventor/overview) - Autodesk
 
-* [Sketch Up](http://www.sketchup.com) - Trimble [Link] 
+* [Sketch Up](http://www.sketchup.com) - Trimble [Link]
 
-* [Rhinoceros](https://www.rhino3d.com) - McNeel 
+* [Rhinoceros](https://www.rhino3d.com) - McNeel
 
 * [Food4Rhino](http://www.food4rhino.com) (Rhino Plug-in Community) - McNeel
 
 * [SolidWorks](http://www.solidworks.com) - Dassault Systems
 
 ---
-### BIM Software 
+### BIM Software
 
 * [Revit](https://www.autodesk.com/products/revit-family/overview) - Autodesk
 
-* [ArchiCAD](http://www.graphisoft.com/archicad/) - Graphisoft 
+* [ArchiCAD](http://www.graphisoft.com/archicad/) - Graphisoft
 
 * [AECOsim Building Designer](https://www.bentley.com/en/products/product-line/building-design-software/aecosim-building-designer) - Bentley  
 
-* [Vectorworks](http://www.vectorworks.net) - Vectorworks 
+* [Vectorworks](http://www.vectorworks.net) - Vectorworks
 
 ---
-### Analysis 
+### Analysis
 
 * [Tekla](https://www.tekla.com) - Trimble (Structural Design & Analysis)
 
@@ -34,38 +34,39 @@
 
 * [Navisworks Manage](https://www.autodesk.com/products/navisworks/overview) - Autodesk (View, Navigate, Clash Detection, and Construction Sequence 4D BIM)
 
-* [Robot Structural Analysis](https://www.autodesk.com/products/robot-structural-analysis/overview) - Autodesk 
+* [Robot Structural Analysis](https://www.autodesk.com/products/robot-structural-analysis/overview) - Autodesk
 
 * [Solibri Model Checker](https://www.solibri.com/products/solibri-model-checker/) - Solibri (Clash Detection)
 
 * [Flow Design](https://www.autodesk.com/products/flow-design/overview) - Autodesk (CFD Simulation)
 
-* [Autodesk CFD](https://www.autodesk.com/products/cfd/overview) - Autodesk 
+* [Autodesk CFD](https://www.autodesk.com/products/cfd/overview) - Autodesk
 
 * [OpenFOAM](http://www.openfoam.com) - (Open Source Computational Fluid Dynamics)
 
 ---
-### Collaboration / Data Management 
+### Collaboration / Data Management
 
 * [BIM 360](https://bim360.autodesk.com) - Autodesk
 
-* [BIMx](http://www.graphisoft.com/bimx/) - Graphisoft 
+* [BIMx](http://www.graphisoft.com/bimx/) - Graphisoft
 
 * [PROCORE](https://www.procore.com) - Procore (US)
 
 * [FLUX](https://flux.io) - Flux.io (US)
 
-* [Hummingbird](https://ghhummingbird.wordpress.com) 
+* [Hummingbird](https://ghhummingbird.wordpress.com)
 
+* [Revizto](https://revizto.com/en/) - Vizerra (US)
 
 ---
-### Visualisation 
+### Visualisation
 
 * [VRay](https://www.vray.com) - Visual Dynamics
 
 * [SU Podium](http://www.suplugins.com) - Sketch Up
 
-* [Iray](http://www.nvidia.com/object/nvidia-iray.html) - NVIDIA 
+* [Iray](http://www.nvidia.com/object/nvidia-iray.html) - NVIDIA
 
 * [Mental Ray](https://www.autodesk.com/products/mental-ray-standalone/overview) - Autodesk
 
@@ -73,7 +74,7 @@
 
 * [Lumion](https://lumion3d.com) - Act-3D (**VR Enabled**)
 
-* [LumenRT](https://www.bentley.com/en/products/brands/lumenrt) - Bentley 
+* [LumenRT](https://www.bentley.com/en/products/brands/lumenrt) - Bentley
 
 * [Fuzor](https://www.kalloctech.com) - Kalloc Studios (**VR Enabled**)
 
@@ -82,25 +83,25 @@
 ---
 ### Computational Design
 
-*4 Main Computational Design Software*: 
+*4 Main Computational Design Software*:
 
-* [Dynamo](http://dynamobim.org) - Autodesk 
+* [Dynamo](http://dynamobim.org) - Autodesk
 
-* [Grasshopper](http://www.grasshopper3d.com) - Rhinoceros 
+* [Grasshopper](http://www.grasshopper3d.com) - Rhinoceros
 
-* [Generative Components](https://www.bentley.com/en/products/product-line/modeling-and-visualization-software/generativecomponents) - Bentley 
+* [Generative Components](https://www.bentley.com/en/products/product-line/modeling-and-visualization-software/generativecomponents) - Bentley
 
 * [Houdini](https://www.sidefx.com) - SideFX
 
-*Tutorials Resources*: 
+*Tutorials Resources*:
 
 * [Dynamo Primer](http://dynamoprimer.com/en/)
 
-* [Lunch Box](https://provingground.io/tools/lunchbox/) (Dynamo/GH Package) - Proving Ground 
+* [Lunch Box](https://provingground.io/tools/lunchbox/) (Dynamo/GH Package) - Proving Ground
 
 * [Grasshopper Guides](http://developer.rhino3d.com/guides/grasshopper/)
 
-* [Grasshopper Components](https://rhino.github.io/index.html) 
+* [Grasshopper Components](https://rhino.github.io/index.html)
 
 * [MODE LAB Education](https://modelab.is/education/)
 
@@ -130,7 +131,7 @@
 
 * [AEC DevBlog](http://adndevblog.typepad.com/aec/) - ADN DevTech
 
-* [**Revit Look up** - Github](https://github.com/jeremytammik/RevitLookup) - Jeremy Tammik 
+* [**Revit Look up** - Github](https://github.com/jeremytammik/RevitLookup) - Jeremy Tammik
 
 * [**pyRevit** - Github](https://github.com/eirannejad/pyRevit) - Ehsan Iran-Nejad
 
@@ -138,21 +139,21 @@
 
 * [**Revit Python Wrapper** - Documentation](http://revitpythonwrapper.readthedocs.io/en/latest/#) - Gui Talarico
 
-* [Iron Python](http://ironpython.net) - Open Source 
+* [Iron Python](http://ironpython.net) - Open Source
 
 * [Rhino.Python Guides](http://developer.rhino3d.com/guides/rhinopython/)
 
 *Advanced Communities*:
 
-* [Code of Space](https://codeofspace.com/tutorials/) 
+* [Code of Space](https://codeofspace.com/tutorials/)
 
-* [Digital Substance](https://digitalsubstance.wordpress.com) 
+* [Digital Substance](https://digitalsubstance.wordpress.com)
 
-* [Disign Reform](http://designreform.net/learning/grasshopper?page=1) 
+* [Disign Reform](http://designreform.net/learning/grasshopper?page=1)
 
-* [Digital Design - School of Architecture - University of Minnesota](https://sites.google.com/a/umn.edu/digitalresources/tutorials) - Optimization & Environmental Analysis Tutorials 
+* [Digital Design - School of Architecture - University of Minnesota](https://sites.google.com/a/umn.edu/digitalresources/tutorials) - Optimization & Environmental Analysis Tutorials
 
-* [Representational Research at the University of Virginia School of Architecture](https://explodebreps.wordpress.com/grasshopper-definitions/) 
+* [Representational Research at the University of Virginia School of Architecture](https://explodebreps.wordpress.com/grasshopper-definitions/)
 
 ---
 ### BIM Open Standard Technology
@@ -164,7 +165,7 @@
 * [IFC introduction](http://buildingsmart.org/ifc/)
 
 ---
-### BIM FM 
+### BIM FM
 
 * [YouBIM](http://www.youbim.com)
 
@@ -181,11 +182,11 @@
 
 * [Construction Information Technology Laboratory](http://cit.eng.cam.ac.uk) - University of Cambridge
 
-* [Digital Built Environment Institute](https://dbei-event.github.io/index.html) 
+* [Digital Built Environment Institute](https://dbei-event.github.io/index.html)
 
-* [The Simply Complex Blog](http://therevitcomplex.blogspot.sg) 
+* [The Simply Complex Blog](http://therevitcomplex.blogspot.sg)
 
-* [Digital Built Environment Institute (DBEI)](https://dbei-event.github.io) 
+* [Digital Built Environment Institute (DBEI)](https://dbei-event.github.io)
 
 * [AEC Hackthon](http://aechackathon.com)
 
@@ -199,7 +200,7 @@
 
 * [Changi Airport](http://www.changiairport.com) - Developer (SG)
 
-* [Aedas](https://www.aedas.com) - Architecture Consultancy 
+* [Aedas](https://www.aedas.com) - Architecture Consultancy
 
 * [Zaha Hadid Architects](http://www.zaha-hadid.com) - Architecture Consultancy
 
@@ -235,16 +236,18 @@
 
 * [Gammon Construction](https://www.gammonconstruction.com/en/html/front/index.html) - Main Contractor (SG)
 
-* [SG Registered A1 Contractor List](https://www.bca.gov.sg/BCADirectory/Search/Result?page=-1&pCLSSelected=%2C83%7CA1&pGrading=A1&d=1) 
+* [SG Registered A1 Contractor List](https://www.bca.gov.sg/BCADirectory/Search/Result?page=-1&pCLSSelected=%2C83%7CA1&pGrading=A1&d=1)
 
 ---
-### GOV 
+### GOV
 
 * [BIM @SG](http://bimsg.org)
 
-* [Singapore BIM Guide](https://www.corenet.gov.sg/general/bim-guides/singapore-bim-guide-version-20.aspx) - BCA
+* [Singapore BIM Guide 2.0](https://www.corenet.gov.sg/media/586132/Singapore-BIM-Guide_V2.pdf) - BCA
 
-* [Building and Construction Authority](https://www.bca.gov.sg) 
+* [Singapore VDC Guide 1.0](https://www.corenet.gov.sg/media/2157461/sgvdcguidev1final.pdf) - BCA
+
+* [Building and Construction Authority](https://www.bca.gov.sg)
 
 * [Urban Redevelopment Authority ](https://www.ura.gov.sg/uol/)
 
