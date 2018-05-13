@@ -1,0 +1,939 @@
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:black;}
+.tg .tg-yw4l{vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-yw4l">S/N</th>
+    <th class="tg-yw4l">Category</th>
+    <th class="tg-yw4l">Terms</th>
+    <th class="tg-yw4l">Full Term</th>
+    <th class="tg-yw4l">Elaboration</th>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">1</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">PPVC</td>
+    <td class="tg-yw4l">Prefabricated Prefinished Volumetric Construction</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">2</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">DfMA</td>
+    <td class="tg-yw4l">Design for Manufacturing and Assembly</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">3</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">ZEB</td>
+    <td class="tg-yw4l">Zero Energy Building</td>
+    <td class="tg-yw4l">https://www.bca.gov.sg/zeb/whatiszeb.html</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">4</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">Lean Construction</td>
+    <td class="tg-yw4l">Lean Construction</td>
+    <td class="tg-yw4l">Just-in-time Construction Logistic</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">5</td>
+    <td class="tg-yw4l">Materials</td>
+    <td class="tg-yw4l">MET</td>
+    <td class="tg-yw4l">Mass Engineered Timber</td>
+    <td class="tg-yw4l">https://www.bca.gov.sg/Publications/BuildSmart/others/buildsmart_17issue35.pdf</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">6</td>
+    <td class="tg-yw4l">Materials</td>
+    <td class="tg-yw4l">CLT</td>
+    <td class="tg-yw4l">Cross-Laminated Timber</td>
+    <td class="tg-yw4l">https://www.bca.gov.sg/BuildableDesign/clt.html</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">7</td>
+    <td class="tg-yw4l">Materials</td>
+    <td class="tg-yw4l">Glulam</td>
+    <td class="tg-yw4l">Glued-Laminated Timber</td>
+    <td class="tg-yw4l">https://www.bca.gov.sg/BuildableDesign/clt.html</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">8</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">GFA</td>
+    <td class="tg-yw4l">Gross Floor Area</td>
+    <td class="tg-yw4l">https://www.ura.gov.sg/Corporate/Guidelines/Development-Control/gross-floor-area</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">9</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">CFA</td>
+    <td class="tg-yw4l">Construction Floor Area</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">10</td>
+    <td class="tg-yw4l">Materials</td>
+    <td class="tg-yw4l">RCA</td>
+    <td class="tg-yw4l">Recycled Concrete Aggregate</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">11</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">ACMV</td>
+    <td class="tg-yw4l">Air-Conditioning and Mechanical Ventilation</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">12</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">IAQ</td>
+    <td class="tg-yw4l">Indoor Air Quality</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">13</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">IDD</td>
+    <td class="tg-yw4l">Integrated Digital Delivery</td>
+    <td class="tg-yw4l">https://www.bca.gov.sg/citm/</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">14</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">BMIS</td>
+    <td class="tg-yw4l">Building Management and Information System</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">15</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">C&amp;D</td>
+    <td class="tg-yw4l">Construction &amp; Demolition</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">16</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">CFD</td>
+    <td class="tg-yw4l">Computational Fluid Dynamics</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">17</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">FCU</td>
+    <td class="tg-yw4l">Fan Coil Unit</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">18</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">GM</td>
+    <td class="tg-yw4l">Green Mark</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">19</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">GNSS</td>
+    <td class="tg-yw4l">Global Navigation Satellite System</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">20</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">M&amp;E</td>
+    <td class="tg-yw4l">Mechanical and Electrical</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">21</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">M.E.P.</td>
+    <td class="tg-yw4l">Mechanical, Electrical, and Plumbing</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">22</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">RB</td>
+    <td class="tg-yw4l">Residential Buildings</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">23</td>
+    <td class="tg-yw4l">Materials</td>
+    <td class="tg-yw4l">RC</td>
+    <td class="tg-yw4l">Reinforced Concrete</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">24</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">UFAD</td>
+    <td class="tg-yw4l">Under Floor Air Distribution</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">25</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">VDC</td>
+    <td class="tg-yw4l">Virtual Design &amp; Construction</td>
+    <td class="tg-yw4l">Virtual Design and Construction or VDC is the management of BIM models as well as people and processes in order to achieve explicit project or organizational goals and to improve performance.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">26</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">TOP</td>
+    <td class="tg-yw4l">Temporary Occupation Permit</td>
+    <td class="tg-yw4l">When the building works are completed, the applicant and the Qualified Person shall apply to the Commissioner of Building Control for a Certificate of Statutory Completion (CSC) or a Temporary Occupation Permit (TOP). The building can only be occupied when a CSC or TOP is granted. Application may be made directly for a CSC when all the requirements have been complied with. Otherwise when only certain requisites are complied with, application for a TOP may be made first before finally complying with all requirements and obtaining CSC.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">27</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">CSC</td>
+    <td class="tg-yw4l">Certificate of Statutory Completion</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">28</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">Coputational Design</td>
+    <td class="tg-yw4l">Coputational Design</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">29</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">Parametric Design</td>
+    <td class="tg-yw4l">Parametric Design</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">30</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">UD</td>
+    <td class="tg-yw4l">Universal Design</td>
+    <td class="tg-yw4l">Barrier Free Design for all people all age</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">31</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">AEC Industry</td>
+    <td class="tg-yw4l">Architecture, Engineering, Construction Industry</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">32</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">LOD</td>
+    <td class="tg-yw4l">Level of Details</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">33</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">3D BIM</td>
+    <td class="tg-yw4l">The shared information model</td>
+    <td class="tg-yw4l">https://www.thenbs.com/knowledge/bim-dimensions-3d-4d-5d-6d-bim-explained</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">34</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">4D BIM</td>
+    <td class="tg-yw4l">Construction sequencing</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">35</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">5D BIM</td>
+    <td class="tg-yw4l">Cost</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">36</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">6D BIM</td>
+    <td class="tg-yw4l">Project lifecycle information</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">37</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">FM</td>
+    <td class="tg-yw4l">Facility Management</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">38</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">QS</td>
+    <td class="tg-yw4l">Quantilty Survey</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">39</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">B-Score</td>
+    <td class="tg-yw4l">Buildable Design Score</td>
+    <td class="tg-yw4l">https://www.bca.gov.sg/BuildableDesign/qfm.html</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">40</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">C-Score</td>
+    <td class="tg-yw4l">Constructability Score</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">41</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">DPM</td>
+    <td class="tg-yw4l">Damp-Proof Membrane</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">42</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">DPC</td>
+    <td class="tg-yw4l">Damp-Proof Course</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">43</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">BP Submission</td>
+    <td class="tg-yw4l">Building Plan Submission</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">44</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">QP</td>
+    <td class="tg-yw4l">Qualified Person</td>
+    <td class="tg-yw4l">The Qualified Person shall be as defined in the Building Control Act, Chapter 29, Part I, Section 2.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">45</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">PE</td>
+    <td class="tg-yw4l">Professional Engineer</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">46</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">ETTV</td>
+    <td class="tg-yw4l">Envelope Thermal Transfer Value</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">47</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">RETV</td>
+    <td class="tg-yw4l">Roof Thermal Transfer Value</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">48</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">MV</td>
+    <td class="tg-yw4l">Mechanical Ventilation</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">49</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">CUI</td>
+    <td class="tg-yw4l">Concrete Usage Index</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">50</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">CONQUAS</td>
+    <td class="tg-yw4l">Construction Quality Assessment System</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">51</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">GMM</td>
+    <td class="tg-yw4l">(Certified) Green Mark Manager</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">52</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">GMP</td>
+    <td class="tg-yw4l">(Certified) Green Mark Professional</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">53</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">AHU</td>
+    <td class="tg-yw4l">Air Handling Unit</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">54</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">BMS</td>
+    <td class="tg-yw4l">Building Management System</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">55</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">VRV System</td>
+    <td class="tg-yw4l">Variable Refrigerant Units System</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">56</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">Shop Drawings</td>
+    <td class="tg-yw4l">Shop Drawings</td>
+    <td class="tg-yw4l">A set of Detailed Drawings mainly for Manufacturing &amp; Production</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">57</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">RFI</td>
+    <td class="tg-yw4l">Request for Information</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">58</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">HVAC</td>
+    <td class="tg-yw4l">Heating, Ventilation, and Air Conditioning</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">59</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">I-Beam</td>
+    <td class="tg-yw4l">I Section Beam</td>
+    <td class="tg-yw4l">A beam with a cross section resembling the letter I.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">60</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">Joint</td>
+    <td class="tg-yw4l">Joint</td>
+    <td class="tg-yw4l">The location between the touching surfaces of two members or components joined and held together by nails, glue, cement, mortar, or other means.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">61</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">Joist</td>
+    <td class="tg-yw4l">Joist</td>
+    <td class="tg-yw4l">Wooden members that run parallel to one another and support a floor or ceiling, and are supported in turn by larger beams, girders, or bearing walls.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">62</td>
+    <td class="tg-yw4l">Materials</td>
+    <td class="tg-yw4l">PVC</td>
+    <td class="tg-yw4l">Poly Vinyl Chloride</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">63</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">Rebar</td>
+    <td class="tg-yw4l">Reinforcing Bar</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">64</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">FCL</td>
+    <td class="tg-yw4l">Finished Ceiling Level</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">65</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">FFL</td>
+    <td class="tg-yw4l">Finished Floor Level</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">66</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">DL</td>
+    <td class="tg-yw4l">Dead Load</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">67</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">Clash Detection</td>
+    <td class="tg-yw4l">Clash Detection</td>
+    <td class="tg-yw4l">https://www.thenbs.com/knowledge/clash-detection-in-bim</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">68</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">COBie</td>
+    <td class="tg-yw4l">Construction Operations Building Information Exchange</td>
+    <td class="tg-yw4l">Cobie is part of IFC standard, It is mainly used for facility management, it is a data format</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">69</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">IFC</td>
+    <td class="tg-yw4l">Industry Foundation Classes</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">70</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">CDE</td>
+    <td class="tg-yw4l">Common Data Environment</td>
+    <td class="tg-yw4l">https://www.thenbs.com/knowledge/what-is-the-common-data-environment-cde</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">71</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">BEP</td>
+    <td class="tg-yw4l">BIM Execution Plan</td>
+    <td class="tg-yw4l">https://www.thenbs.com/knowledge/what-is-a-bim-execution-plan-bep</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">72</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">AIM</td>
+    <td class="tg-yw4l">Asset Information Model</td>
+    <td class="tg-yw4l">A model that compiles the data and information necessary to support asset management</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">73</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">LOI</td>
+    <td class="tg-yw4l">Level of Model Information</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">74</td>
+    <td class="tg-yw4l">Contract</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Traditonal Lump Sum Procurement</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">75</td>
+    <td class="tg-yw4l">Contract</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Design &amp; Build Procuremrnt</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">76</td>
+    <td class="tg-yw4l">Contract</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">Develop &amp; Construct Procurement</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">77</td>
+    <td class="tg-yw4l">Contract</td>
+    <td class="tg-yw4l">PSSCOC</td>
+    <td class="tg-yw4l">Public Sector Standard Conditions Of Contract</td>
+    <td class="tg-yw4l">https://www.bca.gov.sg/PSSCOC/psscoc_construction_works.html</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">78</td>
+    <td class="tg-yw4l">Contract</td>
+    <td class="tg-yw4l">SIA</td>
+    <td class="tg-yw4l">Singapore Institute of Architects</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">79</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">openBIM</td>
+    <td class="tg-yw4l">openBIM</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">80</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">BCF</td>
+    <td class="tg-yw4l">BIM Collaboration Format</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">81</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">i.f.c. Drawing</td>
+    <td class="tg-yw4l">Issue For Consrtruction Drawing</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">82</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">Dynamo</td>
+    <td class="tg-yw4l">Dynamo</td>
+    <td class="tg-yw4l">An open source Visual Programming Software dedicated for Revit</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">83</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">Tekla</td>
+    <td class="tg-yw4l">Trimble Tekla</td>
+    <td class="tg-yw4l">A structural design software</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">84</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">Trimble Connect</td>
+    <td class="tg-yw4l">Trimble Connect</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">85</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">BIM Manager</td>
+    <td class="tg-yw4l">BIM Manager</td>
+    <td class="tg-yw4l">Typically "BIM Manager" is the highest position in the BIM Team of a Main-Con, his job is not modeling the Building, but manage the Model and the implementation of BIM</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">86</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">BIM Coordinator</td>
+    <td class="tg-yw4l">BIM Coordinator</td>
+    <td class="tg-yw4l">Usually "BIM Coordinator" is the assistant of BIM Manager</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">87</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">BIM Modeller</td>
+    <td class="tg-yw4l">BIM Modeller / Drafter</td>
+    <td class="tg-yw4l">Tecchnical Modeller who is focusing on BIM Model itself.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">88</td>
+    <td class="tg-yw4l">BIM</td>
+    <td class="tg-yw4l">As-built Model</td>
+    <td class="tg-yw4l">As-built BIM Model</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">89</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">RVO</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">90</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">WBS</td>
+    <td class="tg-yw4l">Work Breakdown Structure</td>
+    <td class="tg-yw4l">the hierarchical specification of the names of generic activities to design and build a project.</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">91</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">SD</td>
+    <td class="tg-yw4l">Schematic Design</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">92</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">DD</td>
+    <td class="tg-yw4l">Design Development</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">93</td>
+    <td class="tg-yw4l">Building</td>
+    <td class="tg-yw4l">CD</td>
+    <td class="tg-yw4l">Construction Document preparation</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">94</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">ICE</td>
+    <td class="tg-yw4l">Integrated Concurrent Engineering</td>
+    <td class="tg-yw4l">https://web.stanford.edu/~kunz/Chalmers/W2ICEOverview.pdf</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">95</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">OBS</td>
+    <td class="tg-yw4l">Organization Breakdown Structure</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">96</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">PBS</td>
+    <td class="tg-yw4l">Product Breakdown Structure</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">97</td>
+    <td class="tg-yw4l">Concept</td>
+    <td class="tg-yw4l">POP</td>
+    <td class="tg-yw4l">Product â Organization â Process</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">98</td>
+    <td class="tg-yw4l">FM</td>
+    <td class="tg-yw4l">FSM</td>
+    <td class="tg-yw4l">Field Services Management</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">99</td>
+    <td class="tg-yw4l">FM</td>
+    <td class="tg-yw4l">IoT</td>
+    <td class="tg-yw4l">Internet of Things</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">100</td>
+    <td class="tg-yw4l">FM</td>
+    <td class="tg-yw4l">EAM</td>
+    <td class="tg-yw4l">Enterprise Asset Management</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">101</td>
+    <td class="tg-yw4l">FM</td>
+    <td class="tg-yw4l">IWMS</td>
+    <td class="tg-yw4l">Integrated Workplace Management System</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">102</td>
+    <td class="tg-yw4l">FM</td>
+    <td class="tg-yw4l">CAFM</td>
+    <td class="tg-yw4l">Computer Aided Facility Management</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">103</td>
+    <td class="tg-yw4l">FM</td>
+    <td class="tg-yw4l">CMMS</td>
+    <td class="tg-yw4l">Computerized Maintenance Management System</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">104</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">WSH</td>
+    <td class="tg-yw4l">Workplace Safety and Health</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">105</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">AFR</td>
+    <td class="tg-yw4l">Accident Frequency Rate</td>
+    <td class="tg-yw4l">{No. of Workplace Accidents Reported x 1,000,000} / {No. of Man-hours Worked}</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">106</td>
+    <td class="tg-yw4l">Regulations</td>
+    <td class="tg-yw4l">ASR</td>
+    <td class="tg-yw4l">Accident Severity Rate</td>
+    <td class="tg-yw4l">{No. of Man Days Lost To Workplace Accidents x 1,000,000} / {No. of Man-hours Worked}</td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">107</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l">RTLS</td>
+    <td class="tg-yw4l">Real-time locating system</td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">108</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">109</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">110</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">111</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">112</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">113</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">114</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">115</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">116</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">117</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">118</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">119</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">120</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">121</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">122</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">123</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">124</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">125</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">126</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">127</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">128</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">129</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">130</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">131</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+  <tr>
+    <td class="tg-yw4l">132</td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+    <td class="tg-yw4l"></td>
+  </tr>
+</table>
