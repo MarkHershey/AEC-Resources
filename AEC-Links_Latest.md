@@ -4,6 +4,12 @@
 
 * [3ds Max](https://www.autodesk.com/products/3ds-max/overview) - Autodesk
 
+* [Maya](https://www.autodesk.com/products/maya/overview) - Autodesk
+
+* [CINEMA 4D](https://www.maxon.net/en/products/cinema-4d/overview/) - MAXON
+
+* [Blender](https://www.blender.org/) - (Open Source) Blender Foundation
+
 * [Inventor](https://www.autodesk.com/products/inventor/overview) - Autodesk
 
 * [Sketch Up](http://www.sketchup.com) - Trimble [Link]
@@ -53,7 +59,7 @@
 
 * [PROCORE](https://www.procore.com) - Procore (US)
 
-* [FLUX](https://flux.io) - Flux.io (US)
+* [FLUX](https://flux.io) - Flux.io (US)(Service Suspended)
 
 * [Hummingbird](https://ghhummingbird.wordpress.com)
 
@@ -69,8 +75,6 @@
 * [Iray](http://www.nvidia.com/object/nvidia-iray.html) - NVIDIA
 
 * [Mental Ray](https://www.autodesk.com/products/mental-ray-standalone/overview) - Autodesk
-
-* [CINEMA 4D](https://www.maxon.net/en/products/cinema-4d/overview/) - MAXON
 
 * [Lumion](https://lumion3d.com) - Act-3D (**VR Enabled**)
 
