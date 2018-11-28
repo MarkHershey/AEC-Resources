@@ -40,7 +40,9 @@
 
 * [Navisworks Manage](https://www.autodesk.com/products/navisworks/overview) - Autodesk (View, Navigate, Clash Detection, and Construction Sequence 4D BIM)
 
-* [Robot Structural Analysis](https://www.autodesk.com/products/robot-structural-analysis/overview) - Autodesk
+* [Robot Structural Analysis](https://www.autodesk.com/products/robot-structural-analysis/overview) - Autodesk (Structural Analysis)
+
+* [ETABS](https://www.csiamerica.com/products/etabs) - Computers & Structures Inc. (Structural Design & Analysis)
 
 * [Solibri Model Checker](https://www.solibri.com/products/solibri-model-checker/) - Solibri (Clash Detection)
 
