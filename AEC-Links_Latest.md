@@ -1,4 +1,4 @@
-### Computer Aided 2D/3D Design
+### Computer Aided 2D/3D Design, Engineering & Manufacturing 
 
 * [AutoCAD](https://www.autodesk.com/products/autocad/overview) - Autodesk
 
@@ -6,19 +6,23 @@
 
 * [Maya](https://www.autodesk.com/products/maya/overview) - Autodesk
 
-* [CINEMA 4D](https://www.maxon.net/en/products/cinema-4d/overview/) - MAXON
+* [CINEMA 4D](https://www.maxon.net/en/products/cinema-4d/overview/) - MAXON (Rendering/ Movie Production)
 
 * [Blender](https://www.blender.org/) - (Open Source) Blender Foundation
 
 * [Inventor](https://www.autodesk.com/products/inventor/overview) - Autodesk
 
-* [Sketch Up](http://www.sketchup.com) - Trimble [Link]
+* [Sketch Up](http://www.sketchup.com) - Trimble 
 
 * [Rhinoceros](https://www.rhino3d.com) - McNeel
 
 * [Food4Rhino](http://www.food4rhino.com) (Rhino Plug-in Community) - McNeel
 
-* [SolidWorks](http://www.solidworks.com) - Dassault Systems
+* [SolidWorks](http://www.solidworks.com) - Dassault Systems (Mechanical Design)
+
+* [Inventor](https://www.autodesk.com/products/inventor/overview) - Autodesk (Mechanical Design)
+
+* [Fusion 360](https://www.autodesk.com/products/fusion-360/overview) - Autodesk (CNC/ 3D Printing)
 
 ---
 ### BIM Software
