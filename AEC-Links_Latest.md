@@ -141,6 +141,8 @@
 
 * [AEC DevBlog](http://adndevblog.typepad.com/aec/) - ADN DevTech
 
+* [Hackable AEC Web Viewer - Github](https://github.com/tt-acm/Spectacles.WebViewer) - Spectacles (Open Source)
+
 * [**Revit Look up** - Github](https://github.com/jeremytammik/RevitLookup) - Jeremy Tammik
 
 * [**pyRevit** - Github](https://github.com/eirannejad/pyRevit) - Ehsan Iran-Nejad
