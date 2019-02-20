@@ -57,7 +57,7 @@
 * [OpenFOAM](http://www.openfoam.com) - (Open Source Computational Fluid Dynamics)
 
 ---
-### Collaboration / Data Management
+### Construction Management Platform / CDE
 
 * [BIM 360](https://bim360.autodesk.com) - Autodesk
 
@@ -69,11 +69,15 @@
 
 * [Primavera](https://www.oracle.com/industries/construction-engineering/primavera-products/) - Oracle
 
+### Collaboration / Data Management Tools
+
 * [FLUX](https://flux.io) - Flux.io (US)(Service Suspended)
 
 * [Hummingbird](https://ghhummingbird.wordpress.com)
 
-* [Revizto](https://revizto.com/en/) - Vizerra (US)
+* [Revizto](https://revizto.com/en/) - Vizerra (Switzerland)
+
+* [ALICE - Construction Planning](https://alicetechnologies.com/) - Alice Technologies (US)
 
 ---
 ### Visualisation
