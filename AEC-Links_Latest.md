@@ -65,6 +65,10 @@
 
 * [PROCORE](https://www.procore.com) - Procore (US)
 
+* [Aconnex](https://www.aconex.com/) - Oracle
+
+* [Primavera](https://www.oracle.com/industries/construction-engineering/primavera-products/) - Oracle
+
 * [FLUX](https://flux.io) - Flux.io (US)(Service Suspended)
 
 * [Hummingbird](https://ghhummingbird.wordpress.com)
